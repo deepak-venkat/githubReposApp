@@ -1,0 +1,37 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+.heading {
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-size: 35px;
+  text-align: center;
+}
+.list-1 {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+.list-2 {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.failure-view {
+  display: flex;
+  flex-direction: column;
+}
+.failure-img {
+  height: 300px;
+  width: 350px;
+}
+.failure-text {
+  color: #1e293b;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: 'Lobster';
+}
